@@ -1,0 +1,116 @@
+
+    body {
+        background-color: rgb(226, 162, 162);
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        width: 800px;
+        height: 600px;
+        display: flex;
+        margin: 20px auto 500px;
+        border-radius: 20px;
+
+    }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#clear {
+    
+    margin-right: 10px;
+    color: rgb(57, 5, 141);
+    font-weight: bold;
+    border-radius: 7px;
+   
+}
+    .box1 { 
+        width: 50%;
+        height: auto;
+        background-color: white ;
+        border-radius: 20px;
+        margin-left: 5px;
+
+    }
+    #box2 {
+        width: 50%;
+        height: auto;
+        background-color: rgb(16, 14, 41);
+        border-radius: 20px;
+    }
+    #result {
+        width: 80%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .push{display: flex;}
+    .div{
+        margin-left: 30px;}
+
+    .div1{
+         align-items: center;
+        margin-top: 40px;
+    }
+   
+    .div2{
+        align-items: center;
+        margin-top: 10px;
+
+    }.div3{
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+     #input1, #input2, #input3 {
+        width: 80%;
+        padding: 10px;
+        border: 2px solid #121111;
+        border-radius: 5px;
+    }
+    #input {
+        width: 80%;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .type1 {display: block;
+    padding: 10px;
+    border: 2px solid #191717;
+    border-radius: 6px;
+    
+    
+    }
+    .type2 {display: block;
+    padding: 10px;
+    border: 2px solid #191717;
+    border-radius: 6px;
+
+    
+    }
+    #push1 {
+        width: 100%;
+        display: flex;
+        background-color: rgb(244, 248, 3);
+        border-radius: 20px;
+        color: rgb(57, 5, 140);
+    }
+    .push2{
+      margin-left: 30%;
+      color: blue;
+    }
+
+    .img {
+       margin-left: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        color: white;
+    }
+    .img2 {
+        width: 200px;
+        height: 200px;
+    }

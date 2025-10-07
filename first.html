@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage calculator</title>
+</head>
+<link rel="stylesheet" href="first.css">
+<body >
+ <div class="container">
+     <div class="box1">
+      <div class="header"><h2>Mortgage calculator</h2>  
+           <h4 ><button id="clear" onclick="clearAll()" style="color: blue;">Clear All</button></h4></div>
+
+        <br>
+       <div class="div"> 
+             <div class="div1">
+             <p>Mortgage Amount</p>
+             <input type="number" id="input1" placeholder="Enter amount">
+             </div>
+           <div class="push">
+             <div class="div2">
+             <p>Mortgage Term</p>
+             <input type="number" id="input2" placeholder="Enter term in years"  >
+             </div>
+             <div class="div3">
+            <p>Interest Rate</p>
+            <input type="number" id="input3" placeholder="Enter interest rate" >
+            </div>
+       </div>
+           <div  id="input">
+          <label class="type1"><input id="repayment" type="radio" name="type" > Repayment</label>
+          <br>
+          <label class="type2"><input id="interest-only" type="radio"  name="type"> Interest Only</label>
+          <br>
+          <button  id="push1" onclick="Calculate()"><img src="icon-calculator.svg"  alt="Calculator "><h3 class="push2">
+            Calculate
+          </h3></button>
+        </div> 
+        </div>
+         
+</div>
+      <div  id="box2">
+        <div id="result">
+          <div class="img">
+          <img src="illustration-empty.svg" class="img2">
+
+           <h2>Results Shown here</h2>
+           <h4>complete the form and click"Calculate repayments" to see what your monthly repayments would be.</h4>
+          </div>
+        </div>
+      </div>
+
+   </div>
+    <script src="first.js"></script>
+</body>
+</html>
